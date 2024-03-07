@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E5DAD2;
+    margin: 0px;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-family: "Kode Mono", monospace;
+    background: rgba(229,218,210,0.5);
+    font-size: 3em;
+    color: brown;
+    font-weight: bold;
+    text-shadow: 3px 3px 6px #865F49;
+}
+
+h2{
+    font-family: "Kode Mono", monospace;
+    font-size: 2em;
+    color: brown;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #865F49;
+}
+
+h3{
+    font-family: "Yuji Syuku", serif;
+    font-size: 1.5em;
+    color:#51463f;
+    font-weight: bold;
+}
+
+p{
+    font-family: "Yuji Syuku", serif;
+}
+
+span{
+    font-weight: bold;
+    font-size: 1.2em;
+    text-shadow: 2px 1px 0px #E1B07e;
+}
+
+.navigation{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+/*    Image reference: https://pinehallbrick.com/the-beautiful-look-of-old-brick/*/
+    background-image: url("wall.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.navLinks{
+    display: flex;
+    font-size: 1.2em;
+    padding: 0.36em;
+    padding-right: 5%;
+    width: 100%;
+    justify-content: flex-end;
+    background: rgba(51,47,46,0.5);
+    font-family: "Kode Mono", monospace;
+}
+
+.navlink a{
+    font-weight: bold;
+    color:#E5DAD2;
+    text-decoration: none;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.36em;
+    padding-bottom: 0.36em;
+}
+
+.navlink a:hover {
+    background-color: rgba(168,96,69,0.8);
+}
+
+.navlink a:active {
+    background-color: rgba(168,96,69,0.8);
+    color: white;
+    text-decoration: underline;
+}
+
+.mainContainer{
+    padding-top:2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('introImage.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.intro{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.introText{
+    display: flex;
+    width: 90%;
+    color: #865F49;
+}
+
+.homeDirectContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #E1B07E;
+    background-color: #C7A17D;
+    padding: 0.9em;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.prompt{
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.promptImage{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.EPImageImg, .PPImageImg{
+    width: 90%;
+    aspect-ratio:  5/4;
+    border-radius: 20%;
+}
+
+.PPImageImg{
+    margin-left: auto;
+}
+
+.promptText{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    color: #51463f;
+}
+
+.exploreLinkContainer, .protectionLinkContainer{
+    display: flex;
+}
+
+.exploreLinkContainer{
+    display: flex;
+    justify-content: end;
+}
+
+.link{
+    background-image: url("wall.jpeg");
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+.link a{
+    font-size: 1.2em;
+    background-color: #865F49;
+    background: rgba(51,47,46,0.5);
+    font-weight: bold;
+    color:#E5DAD2;
+    text-decoration: none;
+    padding: 0.3em;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    font-family: "Kode Mono", monospace;
+}
+
+.link a:hover{
+    background-color: rgba(168,96,69,0.8);
+}
+
+.link a:active {
+    background-color: rgba(168,96,69,0.8);
+    color: white;
+    text-decoration: underline;
+}
+
+.artsGrid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.artsColumn{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.arts{
+    background-color: red;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.art1 {
+    background-color: #C7A17D;
+    color:#51463f;
+}
+
+.art2 {
+    background-color: #865F49;
+}
+
+.art3 {
+    background-color: #C7A17D;
+}
+
+.art4 {
+    background-color: #E1B07e;
+}
+
+.art5 {
+    background-color: #A86045;
+}
+
+.art6 {
+    background-color: #E1B07e;
+}
+
+.artImage{
+    width: 75%;
+    aspect-ratio:  5/4;
+    border-radius: 20%;
+}
+
+.artGridIntro{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.introMainContainer{
+    margin: 2em;
+    margin-top: 0em;
+}
+
+.backButton{
+    display: flex;
+}
+
+.artIntro{
+    display: flex;
+    flex-direction: column;
+    color:#51463f;
+}
+
+.artIntro h3{
+    margin: 0px;
+}
+
+.videoContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.kiteImageContainer, .bambooImageContainer{
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+.kiteImage, .bambooWeavingImage{
+    width: 30vw;
+    aspect-ratio:  6/5;
+}
+
+.lightBrownSpan{
+    text-shadow: 2px 1px 0px #d2c0b4;
+}
