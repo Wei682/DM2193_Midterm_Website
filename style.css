@@ -37,7 +37,18 @@ h3{
     font-weight: bold;
 }
 
+h4{
+    font-family: "Yuji Syuku", serif;
+    font-size: 1.2em;
+    color:#51463f;
+    font-weight: bold;
+}
+
 p{
+    font-family: "Yuji Syuku", serif;
+}
+
+ul{
     font-family: "Yuji Syuku", serif;
 }
 
@@ -53,7 +64,7 @@ span{
     display: flex;
     justify-content: flex-end;
 /*    Image reference: https://pinehallbrick.com/the-beautiful-look-of-old-brick/*/
-    background-image: url("wall.jpeg");
+    background-image: url("img/wall.jpeg");
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
@@ -101,7 +112,7 @@ span{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('introImage.jpeg');
+    background-image: url('img/introImage.jpeg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -171,7 +182,7 @@ span{
 }
 
 .link{
-    background-image: url("wall.jpeg");
+    background-image: url("img/wall.jpeg");
     padding-top: 0.3em;
     padding-bottom: 0.3em;
 }
@@ -295,4 +306,23 @@ span{
 
 .lightBrownSpan{
     text-shadow: 2px 1px 0px #d2c0b4;
+}
+
+.darkSpan{
+    text-shadow: 2px 1px 0px #51463f;
+}
+
+.lightIntro{
+    color: #E5DAD2;
+}
+
+.silkMakingContainer{
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.silkMakingImage{
+    width: 40vw;
+    aspect-ratio:  6/5;
 }
