@@ -50,6 +50,7 @@ p{
 
 ul{
     font-family: "Yuji Syuku", serif;
+    margin-top: 0em;
 }
 
 span{
@@ -224,8 +225,9 @@ span{
 }
 
 .arts{
-    background-color: red;
-    padding: 20px;
+    padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -239,18 +241,22 @@ span{
 
 .art2 {
     background-color: #865F49;
+    color: #E5DAD2;
 }
 
 .art3 {
     background-color: #C7A17D;
+    color:#51463f;
 }
 
 .art4 {
     background-color: #E1B07e;
+    color: #51463f;
 }
 
 .art5 {
     background-color: #A86045;
+    color: #E5DAD2;
 }
 
 .art6 {
@@ -292,14 +298,14 @@ span{
     justify-content: center;
 }
 
-.kiteImageContainer, .bambooImageContainer{
+.kiteImageContainer, .bambooImageContainer, .inkPaintingImageContainer{
     margin: 1em;
     display: flex;
     justify-content: center;
     gap: 3%;
 }
 
-.kiteImage, .bambooWeavingImage{
+.kiteImage, .bambooWeavingImage, .paintingImage{
     width: 30vw;
     aspect-ratio:  6/5;
 }
@@ -312,10 +318,6 @@ span{
     text-shadow: 2px 1px 0px #51463f;
 }
 
-.lightIntro{
-    color: #E5DAD2;
-}
-
 .silkMakingContainer{
     margin: 1em;
     display: flex;
@@ -325,4 +327,15 @@ span{
 .silkMakingImage{
     width: 40vw;
     aspect-ratio:  6/5;
+}
+
+.leftPainting, .rightPainting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inkPaintingHistory{
+    margin-top: 0em;
 }
