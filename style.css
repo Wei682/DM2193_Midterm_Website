@@ -261,6 +261,7 @@ span{
 
 .art6 {
     background-color: #E1B07e;
+    color: #51463f;
 }
 
 .artImage{
@@ -318,13 +319,13 @@ span{
     text-shadow: 2px 1px 0px #51463f;
 }
 
-.silkMakingContainer{
+.silkMakingContainer, .sealEngravingContainer{
     margin: 1em;
     display: flex;
     justify-content: center;
 }
 
-.silkMakingImage{
+.silkMakingImage, .sealEngravingImage{
     width: 40vw;
     aspect-ratio:  6/5;
 }
